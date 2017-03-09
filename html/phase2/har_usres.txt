@@ -1,0 +1,135 @@
+Name                     Real Name                                Disabled    Locked    Single Workstation Login    External    
+---------------------    -------------------------------------    --------    ------    ------------------------    --------
+appcheck                 GIS APPLICATION CHECK (DO NOT REMOVE)    Y           N         N                           N           
+Aravind.R                Aravind.R                                N           N         N                           N           
+BANAR05                  Banduchode, Aravind Kumar                N           N         N                           N           
+brian.flanagan           Brian Flanagan                           N           N         N                           N           
+build                    BrightStor Build Master                  N           N         N                           N           
+build_win                Arcserve Build Master                    N           N         N                           N           
+cheai01                  Chen, Aiqi                               N           N         N                           N           
+chebe09                  Chen, Bencai                             N           N         N                           N           
+chegu02                  Chen, Guohua                             N           N         N                           N           
+cheli06                  Chen, Michael                            N           N         N                           N           
+CHEXI14                  Chen, Xiaolong                           N           N         N                           N           
+CHOAN11                  Choudri, Anand                           N           N         N                           N           
+danri02                  Dang, Richard                            N           N         N                           N           
+devlina.muk              Mukherjee, Devlina                       N           N         N                           N           
+DEVPR02                  Deverakonda, Prasad                      N           N         N                           N           
+ekta.singhi              Ekta.Singhi                              N           N         N                           N           
+fanau01                  Fang, Austin                             N           N         N                           N           
+fanfzh01                 FanFan.zhang                             N           N         N                           N           
+fanzh03                  Fan, Zhihe                               N           N         N                           N           
+fei.qian                 Qian, Fei                                N           N         N                           N           
+FEIGO02                  Fei, Gong Jun                            N           N         N                           N           
+FENWE02                  Feng, Wei                                N           N         N                           N           
+flabr03                                                           N           N         N                           N           
+frank.niu                Frank.Niu                                N           N         N                           N           
+gaoch01                  Gao, Chaney                              N           N         N                           N           
+gutra04                  Gutha, Radhika Chowdary                  N           N         N                           N           
+haibo.zhang              Zhang, Haibo                             N           N         N                           N           
+harvest                  CA Harvest                               N           N         N                           N           
+HongZhen.liu             HongZhen.liu                             N           N         N                           N           
+hu$bo01                  Hu, Bo                                   N           N         N                           N           
+huayi01                  Huang, Yizhou                            N           N         N                           N           
+JAYSA08                  Jayam, Satya                             N           N         N                           N           
+Jerry.li                 Jerry.Li                                 N           N         N                           N           
+jijfe01                  Ji, Fengru                               N           N         N                           N           
+jing.li                  jing.li                                  N           N         N                           N           
+karpr05                  Karonde, Pratap                          N           N         N                           N           
+koyto02                  Koyama, Toshiyuki                        N           N         N                           N           
+li$yi04                  Li, Yin                                  N           N         N                           N           
+lic98                                                             Y           N         N                           N           
+lijle04                  Li, Lei                                  N           N         N                           N           
+lijne01                  Li, Neo                                  N           N         N                           N           
+LIJSH08                  Li, Shiqiang                             N           N         N                           N           
+LIJXI05                  Li, Xiang                                N           N         N                           N           
+LIJXU04                  Brence.Li                                N           N         N                           N           
+lijyo02                  Li, Yonghui                              N           N         N                           N           
+lijyo03                  Li, Yongfeng                             N           N         N                           N           
+linbi02                  Lin, Bill                                N           N         N                           N           
+LINHA06                  Ling, Haiyang                            N           N         N                           N           
+liuch11                  Liu, Chang                               N           N         N                           N           
+LIUDE03                  Liu, Depeng                              N           N         N                           N           
+liuho05                  Liu, Hongnian                            N           N         N                           N           
+liuqi02                  Liu, Qiang                               N           N         N                           N           
+liuvi01                  Liu, Victor                              N           N         N                           N           
+liuwe05                  Liu, Wei                                 N           N         N                           N           
+LIUYU08                  Liu, Yuhang                              N           N         N                           N           
+luoji03                  Luo, Jianjun                             N           N         N                           N           
+luvyu01                  Lu, Yu                                   N           N         N                           N           
+mabyu03                  Ma, Yuchun                               N           N         N                           N           
+madra04                  Maddali, Ramakrishna                     N           N         N                           N           
+manpi01                  Manorama, Pidapa                         N           N         N                           N           
+maoja01                  Mao, Jacky                               N           N         N                           N           
+Mayur.Dharmik            Mayur.Dharmik                            N           N         N                           N           
+Naveen.Kumar             Naveen Kumar                             N           N         N                           N           
+ngust03                  Nguyen, Stephen                          N           N         N                           N           
+panbo01                  Pang, Bo                                 N           N         N                           N           
+patas04                  Pattamatta, Aswini                       N           N         N                           N           
+pisma04                  Pisipati, Mahadev                        N           N         N                           N           
+qijyi01                  Qi, Yinan                                N           N         N                           N           
+RadhikaChowdary.Gutha    RadhikaChowdary.Gutha                    N           N         N                           N           
+Rajat.Jain               Rajat.Jain                               N           N         N                           N           
+reddygv                  Reddy, G Venkateshwara                   N           N         N                           N           
+REDVE06                                                           N           N         N                           N           
+robmi15                  Roberts, Michael                         N           N         N                           N           
+santo.bu                 santoshkumarreddy.buchu                  N           N         N                           N           
+Santosh                  Buchu,Santosh Kumar Reddy                Y           N         N                           N           
+satmu02                  Sattanathan, Muthu                       N           N         N                           N           
+shagu01                  Shang, Guoxian                           N           N         N                           N           
+SHAHA12                  Shang, Haiyan                            N           N         N                           N           
+Shaun.Tancheff           Tancheff, Shaun                          N           N         N                           N           
+Shikha.Audi              Shikha.Audi                              N           N         N                           N           
+shinya.komatsu           Komatsu, Shinya                          N           N         N                           N           
+shuli02                  Shu, Liang                               N           N         N                           N           
+shval03                  Shvechkov, Alexey                        N           N         N                           N           
+sonmi01                  Song, Min                                N           N         N                           N           
+Srikan.Per               Srikanth.Perumbuduri                     N           N         N                           N           
+SUIBA02                  Sui, Baichang                            N           N         N                           N           
+SUNCH11                  Sun, Chuanqi                             N           N         N                           N           
+SUNCH12                  Sun, Chenghu                             N           N         N                           N           
+sunha01                  Sun, Haitao                              N           N         N                           N           
+sunxi03                  Sun, Xiaoyu                              N           N         N                           N           
+Tao.Li                   Tao.Li                                   N           N         N                           N           
+Tatsuya.Shimotani        Tatsuya.Shimotani                        N           N         N                           N           
+tomohisa.ohiwane         Tomohisa.Ohiwane                         N           N         N                           N           
+uppra02                  Uppala, RamaKishore Reddy                N           N         N                           N           
+viv.ge                   Viveknandhan.Gelella                     N           N         N                           N           
+Vyshnavi.Uppala          Vyshnavi.Uppala                          N           N         N                           N           
+wangr01                  Wang, Grant                              N           N         N                           N           
+wanhu08                  Wang, Hualiang                           N           N         N                           N           
+wanji10                  Wang, Jinqiang                           N           N         N                           N           
+wanji20                  Wang, Jingbin                            N           N         N                           N           
+WANLE08                  Wang, Lei                                N           N         N                           N           
+wanmi12                  Wang, Mingrui                            N           N         N                           N           
+wansh09                  Wang, Shujun                             N           N         N                           N           
+wanxi18                  Wang, Xiao                               N           N         N                           N           
+wanye01                  Wang, Yelin                              N           N         N                           N           
+WANZH06                  Wang, Zhiye                              N           N         N                           N           
+watsc04                  Waters, Scott                            N           N         N                           N           
+WEIXI03                  Wei, Xiaojin                             N           N         N                           N           
+wu$yu02                  Wu, Yuwen                                N           N         N                           N           
+wuvel01                  Wu, Elaine                               N           N         N                           N           
+xiaoming.lin             xiaoming.lin                             N           N         N                           N           
+xuvji01                  Xu, Jing                                 N           N         N                           N           
+Yakar.Cho                YarraOmkar.Chowdary                      N           N         N                           N           
+yalum02                  Yallamraju, Umasankar Raju               N           N         N                           N           
+yanji09                  Yang, Jiaolin                            N           N         N                           N           
+yanmi08                  Yang, Ming                               N           N         N                           N           
+yanya05                  Yang, Yapo                               N           N         N                           N           
+yanzh02                  Yang, Zhibin                             N           N         N                           N           
+Yawen.liu                Yawen.liu                                N           N         N                           N           
+yuntao.guo               yuntao.guo                               N           N         N                           N           
+yuver01                  Yu, Eric                                 N           N         N                           N           
+zhafe02                  Zhang, Feng                              N           N         N                           N           
+ZHAHA11                  Zhang, Haiyang                           N           N         N                           N           
+zhahe05                  Zhang, Heng                              N           N         N                           N           
+zhahu03                  Zhang, Huan                              N           N         N                           N           
+zhaji25                  Zhang, Jiwei                             N           N         N                           N           
+ZHALI26                  Zhang, Lifang                            N           N         N                           N           
+zhata01                  Zhang, Taiwen                            N           N         N                           N           
+zhaxi25                  Zhang, Xiuhua                            N           N         N                           N           
+zhepa02                  Zheng, Panlong                           N           N         N                           N           
+ZHODO03                  Zhou, Dongmei                            N           N         N                           N           
+ZHOYU05                  Zhou, Yu                                 N           N         N                           N           
+zhuji08                  Zhu, Jianjun                             N           N         N                           N           

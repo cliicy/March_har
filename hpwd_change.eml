@@ -1,0 +1,15 @@
+From: build@arcserve.com
+To: ${mail_to};cliicy.luo@arcserve.com
+Subject: The password changing of harvest account  
+
+Hi,
+
+You've changed your password of cscr501 from (http://rmdm-buildrequest/har_usr_pwd.htm).  
+Please remember your temp password to access cscr501 and you are supposed to change your temp password at the first time when you log in cscr501.
+
+User [${user}] 
+Temp Password [${tmp_pwd}]
+
+
+Thanks,
+Harvest Admin

@@ -1,0 +1,137 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html;>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Build Server Info Center</title>
+<style>
+A:link {color:blue;}
+A:visited {color:blue;}
+A:active {color:#ff0000;}
+A:hover {color:#ff0000;}
+table{font-size:11pt;}
+</style>
+</head>
+
+<body>
+
+<!--include virtual="/cgi-bin/buildreq_right.pl"-->
+<!-- 	<table border="0" width=260>
+		<tr><td bgcolor=lightblue><b>Oripin-EarlyQA</b><td></tr>
+		<tr><td><a href="/cgi-bin/buildreq_submit?project=BABOripinEQA" target="_blank">Submit build requests</a></td></tr>
+		<tr><td><a href="#"><font onclick="javascript:window.alert('Project unavailable.')">Submit build requests</font></a></td></tr>
+		<tr><td><a href="/cgi-bin/recent_build_req.pl?project=BABOripinEQA" target="_blank">View build requests</a></td></tr>
+		<tr><td><a href="/cgi-bin/rcchangereq_submit?project=BABOripinEQA" target="_blank">Submit resource change requests</a></td></tr>
+		<tr><td><a href="#"><font onclick="javascript:window.alert('Project unavailable.')">Submit resource change requests</font></a></td></tr>
+		<tr><td><a href="/cgi-bin/recent_RC_req?project=BABOripinEQA" target="_blank">View resource change requests</a></td></tr>
+	</table>
+-->
+	<br>
+	<table border="0" width=260 style="border-bottom-style: solid">
+		<tr><td width="100%"><b>Announcements:</b></td></tr>
+		<tr><td width="100%"><!--#include virtual="/cgi-bin/announcements.sh"--></td></tr>
+	</table>
+        <br>
+	<table border="0" width=260>
+		<tr><td style="border-bottom-style: solid"><b>Build Engineers:</b></td></tr>
+		<tr>
+			<td width="260"><a href="mailto:team-development-ctc-build@ca.com">
+		Chaney.Gao <br>
+		Cliicy.Luo <br>
+		Fengru.Ji <br>
+		Xiaoyu.Sun <br>
+		Zhibin.Yang <br>
+			</td>
+		</tr>
+	</table>
+        <br>
+	<table border="0" width=260>
+	<tr><td><b><a href="/closed.html" target="_blank">View closed projects</a></b></td></tr>
+	<tr/>
+        <!-- tr><td style="border-bottom-style: solid"><b><a href="https://km.ca.com/rnd/MyTeams/coi/DataManagement/programmanagement/Agile_Sprints/Lists/New%20Modules%20Request/AllItems.aspx" target="_blank">New module request</a></b></td></tr -->
+        <tr><td style="border-bottom-style: solid"><b><a href="http://yanzh02-csprtl/Setup/Lists/New%20Module%20Request/AllItems.aspx" target="_blank">New module request</a></b></td></tr>
+        <!-- tr><td style="border-bottom-style: solid"><b><a href="http://midmarketportal/Development/Setup/Lists/New%20Modules%20List/active.aspx" target="_blank">New module request</a></b></td></tr -->
+        <tr><td style="border-bottom-style: solid"><b><a href="file://yanzh02-bld17/codereview" target="_blank">Code change review</a></b></td></tr>
+        <tr><td style="border-bottom-style: solid"><b><a href="https://arcservemail.sharepoint.com/Lists/UDP%20Message%20Review/AllItems.aspx" target="_blank">UDP message review</a></b></td></tr>
+        <tr><td style="border-bottom-style: solid"><b><a href="http://rmdm-bldvm-l901/document" target="_blank">UDP design document</a></b></td></tr>
+        <!-- tr><td style="border-bottom-style: solid"><b><a href="http://wanch08-bld1/Lists/New%20Build%20Project%20Request/AllItems.aspx" target="_blank">Sprint projects build definition</a></b></td></tr -->
+        </table>
+        <br>
+        <table border="0" width=260>
+		<tr><td style="border-bottom-style: solid"><b>Build Ftp Servers:</b></td></tr>
+		<tr><td>
+			<!-- <a href="ftp://ftpensemble@ftpcai.ca.com/BAB11.5/incoming/UnixLinux" target="_blank">ftpcai.ca.com</a><br> -->
+			<!-- a href="ftp://ftparcserve@ftpcai.ca.com" target="_blank">ftpcai.ca.com</a><br -->
+			<!-- a href="ftp://builduser@155.35.108.246/BAB11.5/UNIX_Linux" target="_blank">Ftp Japan</a><br -->
+			<!-- a href="ftp://download@155.35.84.26/dev_linux" target="_blank">Beijing Ftp Server</a><br -->
+			<a href="ftp://cnbjrdftp01" target="_blank">Beijing Ftp Server</a><br>
+			<!-- a href="ftp://anand@155.35.48.74/../LatestBuilds/UNIX" target="_blank">Ftp ITC</a><br -->
+			<!-- a href="ftp://upload@brightstormqa" target="_blank">Ftp ITC MQA</a><br -->
+			<!-- a href="ftp://BSML2@155.35.48.47/L2_BSMr11.5SP1" target="_blank">Ftp ITC BSML2</a -->
+		</td></tr>
+        </table>     
+        <br>
+<!--        <table border="0" width=260>
+		<tr><td style="border-bottom-style: solid"><b><a href="file://lufda028/BrightStorBuilds/ARCserve/BAB14/LIB" target="_blank">Intermediate files for AB r14 Builds</a></b></td></tr>
+        </table> -->
+        <table border="0" width=260>
+		<tr><td style="border-bottom-style: solid"><b>Build Operation:</b></td></tr>
+<!--		<tr><td>
+			<a href="../cgi-bin/webbldsubmit" target="_blank">Kick Off A New Build</a><br>
+		</td></tr>
+		<tr><td>
+			<a href="../cgi-bin/sourcecontrol" target="_blank">Source Controlled Build</a><br>
+		</td></tr>
+		<tr><td>
+			<a href="../cgi-bin/build_machines.pl?branch=BAB_11_5_1_SP2" target="_blank">Build Machines for SP2</a><br>
+		</td></tr>
+		<tr><td>
+			<a href="../cgi-bin/build_machines.pl?branch=ARCserve6" target="_blank">Build Machines for r11.6</a><br>
+		</td></tr>
+		<tr><td>
+<!--			<a href="/BuildReport/BABOripinEQA/running_log.html" target="_blank">Running Log for OripinEQA</a><br> -->
+		</td></tr>
+		<tr><td>
+			<a href="http://ctc-bld60455:8080/job/Tungsten%20Build" target="_blank">Start Tungsten On-demand Build (Hudson)</a><br>
+		</td></tr>
+		<tr><td>
+			<a href="http://rmdm-buildrequest:8080/project" target="_blank">Start Other On-demand Build</a><br>
+		</td></tr>
+		<!-- tr><td>
+			<a href="/BuildReport/BAB12_V/running_log.html" target="_blank">Running Log for ARCserve r12.5</a><br>
+		</td></tr -->
+<!--		<tr><td>
+			<a href="/BuildReport/BAB12_V_GM_PRE/running_log.html" target="_blank">Running Log for ARCserve r12.5 Precompile</a><br>
+		</td></tr>
+	<tr><td>
+                        <a href="/serverstatus.xml" target="_blank">Build Server Status</a><br>
+                </td></tr>
+		<tr><td>
+                        <a href="http://wanch08-bld1:8000/Default.aspx?location=http://usilhp11/cgi-bin/bld_starthtml.pl?project=WIN_AB14_Beta">Start the next build</a><br>
+                </td></tr> -->
+	</table>              
+
+        <br>
+        <!-- table border="0" width=260>
+		<tr><td style="border-bottom-style: solid"><b>Virtual Workspaces:</b></td></tr>
+		<tr><td>
+			<table>
+				<tr><td valign=top>FreeBSD4.11</td><td>141.202.233.58</td></tr>
+				<tr><td valign=top>FreeBSD5.3</td><td>141.202.233.178</td></tr>
+				<tr><td valign=top>AIX</td><td>bebaix- br>155.35.76.46 </td></tr>
+				<tr><td valign=top>HP-UX</td><td>usilhp11</td></tr>
+				<tr><td valign=top>Linux</td><td>corre01rh62 </td></tr>
+				<tr><td valign=top>Solaris</td><td>usilsuhi</td></tr>
+				<tr><td valign=top>Tru64</td><td>mirage2</td></tr>
+				<tr><td valign=top>Solaris_x86</td><td>141.202.243.111</td></tr>
+				<tr><td valign=top>Solaris_amd64</td><td>141.202.243.127</td></tr>
+				<tr><td valign=top>MacOS</td><td>141.202.133.39</td></tr>
+			</table>
+			<a href="vwt.htm" target="_blank">Instructions</a><br>
+		</td></tr>
+	</table  -->
+</body>
+</html>
+

@@ -1,0 +1,117 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
+<head>
+    <title>Build Info Center</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <!-- If you delete this meta tag World War Z will become a reality -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Icon" href="{% static 'CI/images/ARC.png'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CI/normalize.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CI/theme.blue.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CI/theme.green.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CI/foundation.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CI/CIbase.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'CI/font-awesome/css/font-awesome.min.css'%}">
+
+    <script src="{% static 'CI/vendor/modernizr.js'%}"></script>
+    <script src="{% static 'CI/vendor/jquery.js' %}"></script>
+    <style>
+    .check_box_list{
+        width:20%;float:left;display:inline; 
+    }
+    .strong{
+        color: red;
+
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name">
+                    <h1><a href="#">Build Server Center</a></h1>
+                </li>
+            </ul>
+            <section class="top-bar-section">
+<!--                 <ul class="right">
+                    <li class="divider"></li>
+                    <li class="has-dropdown">
+                        <a href="/CI/Package_Check/" class="">Code Reviews</a>
+                        <ul class="dropdown">
+                            <li><a href="/CI/Package_Check/" class="active"> Create</a></li>
+                            <li><a href="/CI/review/all/">View All</a></li>
+                            <li><a href="/CI/review_my/all/">View My</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+               <ul class="right">
+                    <li class="has-dropdown">
+                        <a href="/CI/Package_Check/"><i class="fa fa-plus fa-2x"></i></i></a>
+                    </li>
+                </ul>-->
+                <ul class="right">
+                    <li class="has-dropdown">
+                        <a href="/">Home</a>
+                    </li>
+                </ul>                
+            </section>
+        </nav>
+
+        <h1></h1>
+        <div id="info">
+            {% block subnav %}{% endblock %} {% block content %}{% endblock %}
+        </div>
+    </div>
+    <div class="footer">
+        Arcserve Build Team Copyright 2016
+    </div>
+    <script src="{% static 'CI/jquery.tablesorter.js'%}"></script>
+    <script src="{% static 'CI/vendor/fastclick.js' %}"></script>
+    <script src="{% static 'CI/foundation/foundation.js' %}"></script>
+    <script src="{% static 'CI/foundation/foundation.topbar.js' %}"></script>
+    <script src="{% static 'CI/foundation/foundation.tab.js' %}"></script>
+    <script>
+    $(document).ready(function() {
+        $("#review_list").tablesorter({
+            theme: 'green',
+        });
+
+        $('#check_pkg').click(function() {
+            $('#check_pkg').attr('disabled', 'disabled');
+            package_check();
+        });
+
+        $("#Approve").click(function() {
+            $("form").attr("action", "/CI/review_to/approve/");
+        });
+        $("#Reject").click(function() {
+            $("form").attr("action", "/CI/review_to/reject/");
+        });
+        $("#Reassign").click(function() {
+            $("form").attr("action", "/CI/review_to/reassign/");
+        });
+        $("#ManualApporve").click(function() {
+            $("form").attr("action", "/CI/review_to/manualapprove/");
+        });        
+    });
+    </script>
+
+    <script language="javascript">
+    /* IE11 Fix for SP2010 */
+    if (typeof(UserAgentInfo) != 'undefined' && !window.addEventListener) {
+        UserAgentInfo.strBrowser = 1;
+    }
+    </script>
+    <script>
+    $(document).foundation();
+    </script>
+</body>
+
+</html>

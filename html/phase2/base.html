@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
+<head>
+    <title>Change Your Harvest Password</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+</head>
+
+
+<body>
+    <form action="python reset_usr_pwd.py" method="post">
+    <p>You harvest username: <input type="text" name="h_usrname" /></p>
+    <p>Your new password: <input type="password" name="h_password" /></p>
+    <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>

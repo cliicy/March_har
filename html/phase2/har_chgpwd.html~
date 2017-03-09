@@ -1,0 +1,9 @@
+<html>
+<body>
+<form action="http://localhost:8080/" method="post">
+<p>You harvest username: <input type="text" name="name" id="name" /></p>
+<p>Your new password: <input type="password" name="pwd" id="pwd" /></p>
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
